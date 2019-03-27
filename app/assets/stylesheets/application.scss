@@ -1,0 +1,65 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.container {
+  margin: 0 auto;
+  border: 1px solid #1BD760;
+  width: 800px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+}
+
+.box {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 800px;
+  padding: 30px;
+}
+
+.box h4 {
+  text-align: center;
+}
+
+.links p {
+  margin: 0 auto;
+  width: 800px;
+}
+
+h1 {
+  color: #F14F1D;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  border: 2px solid lightgrey;
+  margin: 0 auto;
+  width: 800px;
+  padding: 20px;
+  text-align:center;
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.form {
+  margin: 0 auto;
+  border: 1px solid #F13833;
+  width: 800px;
+  padding: 30px;
+}
